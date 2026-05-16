@@ -32,7 +32,7 @@ Thumbs.db
 # Jupyter Notebook
 .ipynb_checkpoints/
 
-# Файлы проекта, которые не нужно коммитить (если есть)
+# Файлы проекта
 *.pyc
 *.pyo
 *.pyd
