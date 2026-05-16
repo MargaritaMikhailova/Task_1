@@ -1,0 +1,38 @@
+# Python
+__pycache__/
+*.py[cod]
+*.so
+.Python
+
+# Виртуальное окружение
+venv/
+env/
+ENV/
+.venv
+
+# Инструменты тестирования и покрытия
+.pytest_cache/
+.coverage
+*.cover
+.pytest_cache/
+.coverage.xml
+
+# Логи и временные файлы
+*.log
+*.tmp
+*.swp
+
+# IDEs и редакторы
+.vscode/
+.idea/
+*.sublime-*
+.DS_Store
+Thumbs.db
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+
+# Файлы проекта, которые не нужно коммитить (если есть)
+*.pyc
+*.pyo
+*.pyd
