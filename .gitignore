@@ -1,0 +1,38 @@
+# System files
+__pycache__/
+*.py[cod]
+*.so
+.Python
+
+# Virtual environments
+venv/
+env/
+ENV/
+.venv
+
+# Testing & Allure
+.pytest_cache/
+.coverage
+*.cover
+.pytest_cache/
+.coverage.xml
+
+# Logs
+*.log
+*.tmp
+*.swp
+
+# IDEs и редакторы
+.vscode/
+.idea/
+*.sublime-*
+.DS_Store
+Thumbs.db
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+
+# Файлы проекта
+*.pyc
+*.pyo
+*.pyd

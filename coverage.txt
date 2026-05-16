@@ -1,0 +1,31 @@
+============================= test session starts ==============================
+platform darwin -- Python 3.14.2, pytest-9.0.2, pluggy-1.6.0
+rootdir: /Users/margarita/Project/Task_1
+plugins: cov-7.0.0, allure-pytest-2.15.3
+collected 15 items
+
+tests/test_bun.py ......                                                 [ 40%]
+tests/test_burger.py .....                                               [ 73%]
+tests/test_database.py ..                                                [ 86%]
+tests/test_ingridients.py ..                                             [100%]
+
+================================ tests coverage ================================
+_______________ coverage: platform darwin, python 3.14.2-final-0 _______________
+
+Name                        Stmts   Miss  Cover   Missing
+---------------------------------------------------------
+bun.py                          8      1    88%   15
+burger.py                      27      7    74%   29, 40-48
+data.py                         2      0   100%
+database.py                    21      0   100%
+ingredient.py                  11      3    73%   14, 17, 20
+ingredient_types.py             2      0   100%
+praktikum.py                   20     20     0%   1-41
+tests/__init__.py               0      0   100%
+tests/test_bun.py              13      0   100%
+tests/test_burger.py           36      0   100%
+tests/test_database.py         13      0   100%
+tests/test_ingridients.py       9      0   100%
+---------------------------------------------------------
+TOTAL                         162     31    81%
+============================== 15 passed in 0.04s ==============================
